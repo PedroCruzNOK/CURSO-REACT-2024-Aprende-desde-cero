@@ -1,11 +1,9 @@
-import './App.css'
 import { createRoot } from 'react-dom/client'
-import { TwitterFollowCard } from './TwitterFollowCard.jsx'
-
+import { App } from './App.jsx'
+import './index.css'
 createRoot(document.getElementById('root')).render(
   <>
-    <TwitterFollowCard userName='Gorillaz' name='Pedro Cruz' />
-    <TwitterFollowCard userName='Rammstein' name='Juan Acosta' />
+    <App></App>
   </>
 
 )
